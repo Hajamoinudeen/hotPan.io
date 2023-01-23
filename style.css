@@ -114,7 +114,7 @@ section{
     animation-delay: 1s;
     transition: all .5s ease;
     cursor: grab;
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 .home-text h1{
     font-size: var(--big-font);
