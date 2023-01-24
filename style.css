@@ -114,7 +114,7 @@ section{
     animation-delay: 1s;
     transition: all .5s ease;
     cursor: grab;
-    transform: scale(1.1);
+    box-shadow:var(--second-color) 0px 1px 25px;
 }
 .home-text h1{
     font-size: var(--big-font);
@@ -209,7 +209,7 @@ header.sticky{
     transition: all 1s ease;
 }
 .about-img img:hover{
-    transform: scale(1.1) translateX(15px);
+    transform: scale(1.1);
     box-shadow:var(--second-color) 0px 1px 25px;
     transition:all .5s ease;
     cursor: grab;
